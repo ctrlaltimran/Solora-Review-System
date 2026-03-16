@@ -1,0 +1,16 @@
+{
+  "name": "solora-review-checkout",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Netlify function backend for Solora review removal Stripe Checkout",
+  "scripts": {
+    "start": "netlify dev",
+    "test": "echo \"No tests configured\""
+  },
+  "dependencies": {
+    "stripe": "^18.0.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.34.1"
+  }
+}
